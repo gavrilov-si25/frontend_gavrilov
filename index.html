@@ -3,67 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jobly Landing Page</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <title>Jobly</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <div class="logo">Jobly</div>
-            <nav class="nav">
-                <a href="#">For Recruiters</a>
-                <a href="#" class="btn">Sign Up</a>
-                <a href="#" class="btn-outline">Log In</a>
-            </nav>
-        </div>
-    </header>
-
-    <!-- Main Section -->
-    <section class="main">
+<!-- Header -->
+<header>
+    <div class="container">
+        <div class="logo"><img src="img/logo.svg"></div>
+        <nav>
+            <a href="#">For Recruiters</a>
+            <a href="#">Sign Up</a>
+            <a href="#">Log In</a>
+        </nav>
+    </div>
+</header>
+<main>
+    <!-- Hero Section -->
+    <section class="hero">
         <div class="container">
             <h1>Candidates with Creative & Engineering Backgrounds</h1>
             <p>This is the place to show yourself and land entry level jobs at cutting-edge companies. Launch your career here.</p>
-            <a href="#" class="btn-primary">Join Now</a>
-            <p><a href="#">Looking for candidates? Hire now</a></p>
+            <button class="primary-button">Join Now</button>
+            <p>Looking for candidate’s? Hire now</p>
         </div>
-    </section>
-
-    <!-- Image Section -->
-    <section class="image-section">
-        <img src="img/team.jpg" alt="Team working" class="main-image">
+        <img src="img/hero-image.png" alt="Hero Image" class="hero-image">
     </section>
 
     <!-- Quote Section -->
-    <section class="quote-section">
+    <section class="quote">
         <div class="container">
+            <img src="img/mask.png">
+            <img src="img/avatar.png" alt="Author">
             <blockquote>
-                <p>Creating an Online Presence is Hard. Jobly Makes it Easy for Recruiters to See you</p>
-                <cite>Zhao Cui, Founder at Jobly.co</cite>
+                <p>Creating an Online Presence is Hard.
+                    Jobly Makes it Easy for Recruiters to See you</p>
+                <div class="author">
+                    <span>Zhao Cui</span>
+                    <span>___Founder at Jobly.co</span>
+                </div>
             </blockquote>
         </div>
     </section>
 
-    <!-- Profile Section -->
-    <section class="profile-section">
+    <!-- Info Section -->
+    <section class="info">
         <div class="container">
             <h2>Everything you want to know in one place.</h2>
-            <div class="profile-card">
-                <img src="img/profile.png" alt="Profile of Pristia Candra">
-                <div class="profile-info">
-                    <h3>Pristia Candra</h3>
-                    <p>Frontend Product Designer</p>
-                    <p>About Me: Experienced frontend designer...</p>
+            <img src="img/info-image.png" alt="Info Image" class="info-image">
+            <div class="features">
+                <div class="feature">
+                    <h3>Professional Profile</h3>
+                    <p>We know finding the right job is stressful, so we’ve made it simple. It only takes a few minutes. Create a free portfolio on briefolio to show your best self and get discovered by recruiter</p>
+                </div>
+                <div class="feature">
+                    <h3>Best Portfolio</h3>
+                    <p>We know finding the right job is stressful, so we’ve made it simple. It only takes a few minutes. Create a free portfolio on briefolio to show your best self and get discovered by recruiter</p>
+                </div>
+                <div class="feature">
+                    <h3>Powerful Resume</h3>
+                    <p>We know finding the right job is stressful, so we’ve made it simple. It only takes a few minutes. Create a free portfolio on briefolio to show your best self and get discovered by</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
+    <!-- Connect Section -->
+    <section class="connect">
         <div class="container">
-            <p>&copy; 2023 Jobly. All rights reserved.</p>
+            <img src="img/connect-image.png" alt="Connect with Recruiter">
+            <div>
+                <h3>Connect With Recruiter</h3>
+                <p>Get instant access to a curated pool of top creative & tech talent actively seeking their next role. Find highly qualified job!</p>
+            </div>
         </div>
-    </footer>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Set up your profile.
+                Let jobs find you.</h2>
+            <button class="primary-button">Join Now</button>
+            <img src="img/job-image.png">
+        </div>
+    </section>
+</main>
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="logo-footer"><img src="img/logo2.png"></div>
+        <p>We support a pool of diverse young creatives and engineers. </p>
+        <p>© 2023 Jobly.co Copyright and All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Terms and Conditions</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
