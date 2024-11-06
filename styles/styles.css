@@ -1,1 +1,8 @@
-@import "base/normalize.css"
+@import "base/normalize.css";
+/* @import "base/reset.css" */
+
+/* block */
+@import "blocks/header";
+
+/* block */
+@import "blocks/style.css";
