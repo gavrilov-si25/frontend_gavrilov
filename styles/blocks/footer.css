@@ -1,0 +1,37 @@
+/* footer.css */
+footer {
+    background-color: #FAFAFA;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-left {
+    text-align: left;
+}
+
+.footer-left img {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.footer-left p {
+    font-size: 0.9rem;
+    color: #080305;
+}
+
+.footer-right a {
+    color: #080305;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer-right a:hover {
+    color: #aaa;
+}

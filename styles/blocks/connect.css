@@ -1,0 +1,28 @@
+/* connect.css */
+.connect {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.connect-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.connect img {
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.connect-text h3 {
+    font-size: 1.8rem;
+    color: #080305;
+    margin-bottom: 20px;
+}
+
+.connect-text p {
+    font-size: 1rem;
+    color: #707070;
+}
