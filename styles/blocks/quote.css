@@ -1,0 +1,46 @@
+/* quote.css */
+.quote {
+    background-color: #f8f8f8;
+    padding: 60px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.quote-icon {
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    width: 50px;
+}
+
+.quote blockquote {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    color: #080305;
+    margin-bottom: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.author-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.author-photo {
+    border-radius: 50%;
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.author-details p {
+    font-weight: bold;
+    color: #080305;
+}
+
+.author-details span {
+    color: #080305;
+    font-size: 0.9rem;
+}

@@ -1,8 +1,26 @@
 @import "base/normalize.css";
 /* @import "base/reset.css" */
 
-/* block */
-@import "blocks/header";
+/* global */
+@import "blocks/global.css";
 
-/* block */
-@import "blocks/style.css";
+/* header */
+@import "blocks/header.css";
+
+/* hero */
+@import "blocks/hero.css";
+
+/* quote */
+@import "blocks/quote.css";
+
+/* info */
+@import "blocks/info.css";
+
+/* connect */
+@import "blocks/connect.css";
+
+/* cta */
+@import "blocks/cta.css";
+
+/* footer */
+@import "blocks/footer.css";
