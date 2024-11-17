@@ -24,3 +24,6 @@
 
 /* footer */
 @import "blocks/footer.css";
+
+/* responsive */
+@import "blocks/responsive.css";

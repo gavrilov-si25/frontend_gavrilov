@@ -1,6 +1,6 @@
 /* cta.css */
 .cta {
-    padding: 80px 0;
+    padding: 0px 0;
     background-color: #0C0909;
 }
 
@@ -33,6 +33,6 @@
 
 .cta img {
     width: 50%;
-    border-radius: 8px;
+    border-radius: 0px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
