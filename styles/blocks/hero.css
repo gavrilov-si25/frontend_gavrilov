@@ -1,75 +1,74 @@
 /* hero.css */
-main {
-    padding-top: 80px;
-    .hero {
-        display: flex;
-        justify-content: center;
-        margin: 40px 0;
-        .hero-content {
-            text-align: center;
-            width: 100%;
-            h1 {
-                font-size: 2.5rem;
-                color: #080305;
-                margin-bottom: 10px;
-            }
-            
-            p {
-                font-size: 1.1rem;
-                color: #707070;
-                margin-bottom: 20px;
-            }
-            
-            p a {
-                color: #3D1EDD;
-                text-decoration: none;
-                font-weight: bold;
-            }
-            
-            p a:hover {
-                text-decoration: underline;
-            }
+.hero {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
 
-            .gradient {
-                position: relative;
-                width: 100%;
+.hero-content {
+    text-align: center;
+    width: 100%;
+}
 
-            }
+.hero-content h1 {
+    font-size: 40px;
+    color: #080305;
+    margin-bottom: 10px;
+}
 
-            .gradient::before {
-                content: "";
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                background: linear-gradient(to top, black 50%, #f8f8f8 50%);
-                z-index: -2;
-            }
-            
-            .hero-image {
-                max-width: 100%;
-                height: auto;
-                display: block;
-                margin: 0 auto;
-                justify-content: center;
-                padding-bottom: 100px;
-            }
-        }
-    }
+.hero-content p {
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 20px;
+}
 
-    .can {
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: #3D1EDD;
-        color: #fff;
-        border-radius: 4px;
-        text-decoration: none;
-        font-weight: bold;
-        transition: background-color 0.3s;
-    }
-    
-    .can:hover {
-        background-color: #434190;
-    }
+.hero-content p a {
+    color: #3D1EDD;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-content p a:hover {
+    text-decoration: underline;
+}
+
+.gradient {
+    position: relative;
+    width: 100%;
+}
+
+.gradient::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, black 50%, #f8f8f8 50%);
+    z-index: -2;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.can {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 16px;
+    background-color: #3D1EDD;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.can:hover {
+    background-color: #434190;
 }

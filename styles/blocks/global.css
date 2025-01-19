@@ -14,7 +14,11 @@ body {
     background-color: #f8f8f8;
 }
 
-.container {
+header .header-content,
+main .quote .quote-content,
+main .connect .connect-content,
+main .cta .cta-content,
+footer .footer-content {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;

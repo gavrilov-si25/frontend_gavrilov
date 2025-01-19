@@ -14,12 +14,11 @@
 }
 
 .quote blockquote {
-    font-size: 1.5rem;
+    font-size: 30px;
     line-height: 1.4;
     color: #080305;
+    max-width: 700px;
     margin-bottom: 20px;
-    max-width: 500px;
-    margin: 0 auto;
 }
 
 .author-details {
@@ -42,5 +41,5 @@
 
 .author-details span {
     color: #080305;
-    font-size: 0.9rem;
+    font-size: 14px;
 }

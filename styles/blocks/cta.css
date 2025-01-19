@@ -1,6 +1,6 @@
 /* cta.css */
 .cta {
-    padding: 0px 0;
+    padding: 0 0;
     background-color: #0C0909;
 }
 
@@ -12,7 +12,7 @@
 }
 
 .cta-text h2 {
-    font-size: 2rem;
+    font-size: 32px;
     color: #FFFFFF;
     margin-bottom: 20px;
 }
@@ -33,6 +33,6 @@
 
 .cta img {
     width: 50%;
-    border-radius: 0px;
+    border-radius: 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
