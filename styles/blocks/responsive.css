@@ -4,13 +4,13 @@
         left: 40px;
     }
 
-    .info-image {
-        width: 90%;
-    }
-
     .hero-image {
         width: 90%;
         padding-bottom: 50px;
+    }
+
+    .card-display {
+        margin: 32px 32px;
     }
 }
 
@@ -34,8 +34,8 @@
         padding: 0 20px;
     }
 
-    .feature {
-        margin: 10px 0;
+    .card-display {
+        margin: 16px 16px;
     }
 
     .connect-content {
@@ -50,16 +50,12 @@
         width: 90%;
     }
 
-    .info-image {
-        width: 90%;
-    }
-
     .cta-content {
         flex-direction: column;
         text-align: center;
     }
 
-    .cta img {
+    .cta-image {
         width: 90%;
         margin-top: 20px;
     }
