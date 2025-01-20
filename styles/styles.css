@@ -1,6 +1,9 @@
 @import "base/normalize.css";
 /* @import "base/reset.css" */
 
+/* preloader */
+@import "blocks/preloader.css";
+
 /* global */
 @import "blocks/global.css";
 

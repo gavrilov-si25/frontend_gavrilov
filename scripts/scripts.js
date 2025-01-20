@@ -1,3 +1,13 @@
+window.addEventListener("load", () => {
+    const preloader = document.querySelector('.preloader');
+    setTimeout(() => {
+        preloader.classList.add('hidden');
+        setTimeout(() => {
+            preloader.style.display = 'none';
+        }, 500);
+    }, 1000);
+});
+
 const cards = {
     "card-1": {
         title: "Expand Your Horizons",
