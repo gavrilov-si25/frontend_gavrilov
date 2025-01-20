@@ -28,5 +28,8 @@
 /* footer */
 @import "blocks/footer.css";
 
+/* form */
+@import "blocks/form.css";
+
 /* responsive */
 @import "blocks/responsive.css";

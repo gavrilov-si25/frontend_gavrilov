@@ -52,16 +52,36 @@ function handleFeatureClicks() {
     });
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-    handleFeatureClicks();
-});
-
 document.addEventListener("DOMContentLoaded", () => {
+    handleFeatureClicks();
+
     new Swiper('.swiper', {
         loop: true,
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
+    });
+
+    const modalOverlay = document.querySelector('.modal-overlay');
+    const cancelButtons = document.querySelectorAll('.cancel-button, .modal-overlay');
+
+    document.querySelectorAll('.sign-up, .log-in').forEach(button => {
+        button.addEventListener('click', (e) => {
+            e.preventDefault();
+            modalOverlay.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        });
+    });
+
+    cancelButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            modalOverlay.classList.add('hidden');
+            document.body.style.overflow = '';
+        });
+    });
+
+    document.querySelector('.modal').addEventListener('click', (e) => {
+        e.stopPropagation();
     });
 });
