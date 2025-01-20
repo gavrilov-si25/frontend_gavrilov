@@ -19,6 +19,9 @@
 /* connect */
 @import "blocks/connect.css";
 
+/* slider */
+@import "blocks/slider.css";
+
 /* cta */
 @import "blocks/cta.css";
 

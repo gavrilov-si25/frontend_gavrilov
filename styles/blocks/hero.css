@@ -13,13 +13,16 @@
 .hero-content h1 {
     font-size: 40px;
     color: #080305;
-    margin-bottom: 10px;
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto 10px;
 }
 
 .hero-content p {
     font-size: 18px;
     color: #707070;
-    margin-bottom: 20px;
+    width: 90%;
+    margin: 0 auto 10px;
 }
 
 .hero-content p a {
