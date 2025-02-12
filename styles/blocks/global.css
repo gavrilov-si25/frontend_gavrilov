@@ -14,12 +14,12 @@ body {
     background-color: #f8f8f8;
 }
 
-header .header-content,
-main .quote .quote-content,
-main .connect .connect-content,
-main .cta .cta-content,
-footer .footer-content {
+.header__content,
+.main .quote__content,
+.main .connect__content,
+.main .cta__content,
+.footer__content {
     width: 90%;
-    max-width: 1200px;
+    max-width: 75rem;
     margin: 0 auto;
 }

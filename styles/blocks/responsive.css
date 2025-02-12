@@ -1,79 +1,82 @@
 /* responsive.css */
-@media (max-width: 1280px) {
-    .quote-icon {
-        left: 40px;
+@media (max-width: 80rem) {
+    .quote__icon {
+        left: 2.5rem;
     }
 
-    .hero-image {
+    .hero__image {
         width: 90%;
-        padding-bottom: 50px;
+        padding-bottom: 3.125rem;
     }
 
-    .card-display {
-        margin: 32px 32px;
+    .info__card-display {
+        margin: 2rem 2rem;
+    }
+
+    .slider__title,
+    .slider__text {
+        max-width: 90%;
+        margin: 0 auto;
+        text-align: center;
     }
 }
 
-@media (max-width: 768px) {
-    header {
+@media (max-width: 48rem) {
+    .header {
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
 
-    .hero h1 {
-        font-size: 28px;
+    .hero__title {
+        font-size: 1.75rem;
     }
 
-    .hero p {
-        font-size: 14px;
+    .hero__text {
+        font-size: 0.875rem;
     }
 
-    .features-slider {
+    .info__features-slider {
         flex-direction: column;
-        padding: 0 20px;
+        padding: 0 1.25rem;
     }
 
-    .card-display {
-        margin: 16px 16px;
+    .info__card-display {
+        margin: 1rem 1rem;
     }
 
-    .connect-content {
+    .connect__content {
         flex-direction: column;
     }
 
-    .connect-content img {
+    .connect__content img {
         width: 80%;
     }
 
-    .hero-img {
+    .hero__img {
         width: 90%;
     }
 
-    .cta-content {
+    .cta__content {
         flex-direction: column;
         text-align: center;
     }
 
-    .cta-image {
+    .cta__image {
         width: 90%;
-        margin-top: 20px;
+        margin-top: 1.25rem;
     }
 
-    footer {
+    .footer__content {
         flex-direction: column;
         text-align: center;
-        gap: 20px;
-    }
-
-    .footer-content {
-        flex-direction: column;
+        gap: 1.25rem;
     }
 }
 
-@media (max-width: 512px) {
-    .header-nav {
+@media (max-width: 32rem) {
+    .header__nav {
         flex-direction: column;
-        gap: 10px;
+        gap: 0.625rem;
     }
 }

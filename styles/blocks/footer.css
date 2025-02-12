@@ -2,36 +2,36 @@
 footer {
     background-color: #FAFAFA;
     color: #fff;
-    padding: 40px 20px;
+    padding: 2.5rem 1.25rem;
 }
 
-.footer-content {
+.footer__content {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
 
-.footer-left {
+.footer__left {
     text-align: left;
 }
 
-.footer-left img {
-    width: 150px;
-    margin-bottom: 10px;
+.footer__left img {
+    width: 9.375rem;
+    margin-bottom: 0.625rem;
 }
 
-.footer-left p {
-    font-size: 14px;
+.footer__left p {
+    font-size: 0.875rem;
     color: #080305;
 }
 
-.footer-right a {
+.footer__right .footer__link {
     color: #080305;
-    margin-left: 20px;
+    margin-left: 1.25rem;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
-.footer-right a:hover {
+.footer__right .footer__link:hover {
     color: #aaa;
 }

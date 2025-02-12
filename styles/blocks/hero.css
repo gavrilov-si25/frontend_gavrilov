@@ -2,45 +2,45 @@
 .hero {
     display: flex;
     justify-content: center;
-    margin: 40px 0;
+    margin: 2.5rem 0;
 }
 
-.hero-content {
+.hero__content {
     text-align: center;
     width: 100%;
 }
 
-.hero-content h1 {
-    font-size: 40px;
+.hero__title {
+    font-size: 2.5rem;
     color: #080305;
-    max-width: 1200px;
+    max-width: 75rem;
     width: 90%;
-    margin: 0 auto 10px;
+    margin: 0 auto 0.625rem;
 }
 
-.hero-content p {
-    font-size: 18px;
+.hero__text {
+    font-size: 1.125rem;
     color: #707070;
     width: 90%;
-    margin: 0 auto 10px;
+    margin: 0 auto 0.625rem;
 }
 
-.hero-content p a {
+.hero__text a {
     color: #3D1EDD;
     text-decoration: none;
     font-weight: bold;
 }
 
-.hero-content p a:hover {
+.hero__text a:hover {
     text-decoration: underline;
 }
 
-.gradient {
+.hero__gradient {
     position: relative;
     width: 100%;
 }
 
-.gradient::before {
+.hero__gradient::before {
     content: "";
     position: absolute;
     bottom: 0;
@@ -51,27 +51,27 @@
     z-index: -2;
 }
 
-.hero-image {
+.hero__image {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
     justify-content: center;
-    padding-bottom: 100px;
+    padding-bottom: 6.25rem;
 }
 
-.can {
+.hero__cta {
     display: inline-block;
-    padding: 10px 20px;
-    margin-bottom: 16px;
+    padding: 0.625rem 1.25rem;
+    margin-bottom: 1rem;
     background-color: #3D1EDD;
     color: #fff;
-    border-radius: 4px;
+    border-radius: 0.25rem;
     text-decoration: none;
     font-weight: bold;
     transition: background-color 0.3s;
 }
 
-.can:hover {
+.hero__cta:hover {
     background-color: #434190;
 }
